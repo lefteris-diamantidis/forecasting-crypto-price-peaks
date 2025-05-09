@@ -20,3 +20,23 @@ with st.expander("Data"):
   st.write("BNB Data")
   df_bnb = pd.read_csv("https://raw.githubusercontent.com/lefteris-diamantidis/forecasting-crypto-price-peaks/refs/heads/main/data/final_data_bnb.csv")
   df_bnb
+
+  st.write("AAVE Data")
+  df_aave = pd.read_csv("https://raw.githubusercontent.com/lefteris-diamantidis/forecasting-crypto-price-peaks/refs/heads/main/data/final_data_aave.csv")
+  df_aave
+
+  st.write("SOL Data")
+  df_sol = pd.read_csv("https://raw.githubusercontent.com/lefteris-diamantidis/forecasting-crypto-price-peaks/refs/heads/main/data/final_data_sol.csv")
+  df_sol
+
+  st.write("LTC Data")
+  df_ltc = pd.read_csv("https://raw.githubusercontent.com/lefteris-diamantidis/forecasting-crypto-price-peaks/refs/heads/main/data/final_data_ltc.csv")
+  df_ltc 
+  
+  st.write("XRP Data")
+  df_xrp = pd.read_csv("https://raw.githubusercontent.com/lefteris-diamantidis/forecasting-crypto-price-peaks/refs/heads/main/data/final_data_xrp.csv")
+  df_xrp
+
+  st.write("ADA Data")
+  df_ada = pd.read_csv("https://raw.githubusercontent.com/lefteris-diamantidis/forecasting-crypto-price-peaks/refs/heads/main/data/final_data_ada.csv")
+  df_ada
