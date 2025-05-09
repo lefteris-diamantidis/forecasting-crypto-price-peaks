@@ -6,5 +6,5 @@ st.info("This is an app that Forecasts Cryptos TUNH")
 
 with st.expander("Data"):
   st.write("BTC Data")
-  df_btc = pd.read_csv("https://github.com/lefteris-diamantidis/forecasting-crypto-price-peaks/blob/main/final_data_btc.csv")
+  df_btc = pd.read_csv("https://raw.githubusercontent.com/lefteris-diamantidis/forecasting-crypto-price-peaks/refs/heads/main/final_data_btc.csv")
   df
