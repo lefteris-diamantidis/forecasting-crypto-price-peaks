@@ -42,4 +42,4 @@ with st.expander("Data"):
   df_ada
 
 with st.expander('Data visualization'):
-  st.scatter_chart(data=df, x='Date', y='tunh', color='species')
+  st.scatter_chart(data=df_btc, x='Date', y='tunh', color='species')
