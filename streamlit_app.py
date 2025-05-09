@@ -41,5 +41,5 @@ with st.expander("Data"):
   df_ada = pd.read_csv("https://raw.githubusercontent.com/lefteris-diamantidis/forecasting-crypto-price-peaks/refs/heads/main/data/final_data_ada.csv")
   df_ada
 
-with st.expander("Data Visualization"):
-  st.scatter_chart(data=df_btc, x="Date", y="tunh", color="species")
+with st.expander('Data visualization'):
+  st.scatter_chart(data=df, x='Date', y='tunh', color='species')
